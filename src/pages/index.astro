@@ -1,25 +1,17 @@
 ---
-import type { IFrontmatter } from 'astro-boilerplate-components';
-
-import { CTA } from '@/partials/CTA';
-import { Hero } from '@/partials/Hero';
-import { ProjectList } from '@/partials/ProjectList';
-import { RecentPosts } from '@/partials/RecentPosts';
+import Hero from '@/partials/Hero.astro';
 import Base from '@/templates/Base.astro';
 import { AppConfig } from '@/utils/AppConfig';
-import { sortByDate } from '@/utils/Posts';
-
-const allPosts = await Astro.glob<IFrontmatter>('./posts/*.md');
-const sortedPosts = sortByDate(allPosts);
-const lastThreePosts = sortedPosts.slice(0, 3);
 
 const { title } = AppConfig;
 const { description } = AppConfig;
 ---
 
 <Base head={{ title, description }}>
-  <Hero />
-  <ProjectList />
-  <RecentPosts postList={lastThreePosts} />
-  <CTA />
+  <section class="flex items-center gap-16 w-full h-screen">
+    <figure class="w-1/2">
+      <img src="/assets/images/hero.svg" alt="">
+    </figure>
+    <Hero />
+  </section>
 </Base>

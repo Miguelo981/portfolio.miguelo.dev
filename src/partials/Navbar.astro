@@ -1,0 +1,56 @@
+---
+const routes = [
+  { path: "#home", id: "home", text: "Home" },
+  { path: "#projects", id: "projects", text: "Projects" },
+  { path: "#about", id: "about", text: "About" },
+  { path: "#hire", id: "hire", text: "Hire" },
+  { path: "#contact", id: "contact", text: "Contact" },
+];
+---
+
+<header class="py-6 fixed">
+  <nav>
+    <ul class="flex gap-3">
+      {routes.map((route) => {
+        const { path, id, text } = route
+
+        return (
+          <li class="font-light text-xl hover:text-indigo-500">
+            <a href={path} id={id} class="pb-2">
+              {text}
+            </a>
+          </li>
+        )
+      })}
+    </ul>
+  </nav>
+</header>
+
+<script>
+  const routes = document.querySelectorAll("header a");
+  const { hash } = window.location;
+
+  function updateNavigationStyle(event) {
+    routes.forEach((route) => {
+      route
+        .getAttribute("href")
+        .includes(!event?.target ? hash || null : `#${event.target.getAttribute("id")}`)
+        ? route.classList.add(
+            "border-b-2",
+            "border-black",
+            "hover:border-indigo-500"
+          )
+        : route.classList.remove(
+            "border-b-2",
+            "border-black",
+            "hover:border-indigo-500"
+          );
+    });
+  }
+
+  updateNavigationStyle(hash);
+
+  routes.forEach((route) => {
+    route.addEventListener("click", updateNavigationStyle);
+  });
+</script>

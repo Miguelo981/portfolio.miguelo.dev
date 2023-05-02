@@ -1466,6 +1466,11 @@ astro-eslint-parser@0.2.2:
     espree "^9.0.0"
     synckit "^0.7.1"
 
+astro-google-fonts-optimizer@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/astro-google-fonts-optimizer/-/astro-google-fonts-optimizer-0.2.2.tgz#93eff2a5c17713064675f70bce4c6f2fc4c2c50f"
+  integrity sha512-YQxp/ExF3NzUomAGuu1VKecO7/ETRnhnE50gqwAqfpbGPZFj4MYa4XxK1ukBg3R63QmKuE5uurOiKmXiLzttuw==
+
 astro-imagetools@0.6.10:
   version "0.6.10"
   resolved "https://registry.yarnpkg.com/astro-imagetools/-/astro-imagetools-0.6.10.tgz#8cbca806e223caae59d7c5cc32d2c9e64e2c1375"
