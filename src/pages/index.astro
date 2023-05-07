@@ -1,5 +1,8 @@
 ---
-import Hero from '@/partials/Hero.astro';
+import About from '@/partials/About.astro';
+import Experience from '@/partials/Experience.astro';
+import Home from '@/partials/Home.astro';
+import Projects from '@/partials/Projects.astro';
 import Base from '@/templates/Base.astro';
 import { AppConfig } from '@/utils/AppConfig';
 
@@ -8,10 +11,8 @@ const { description } = AppConfig;
 ---
 
 <Base head={{ title, description }}>
-  <section class="flex items-center gap-16 w-full h-screen">
-    <figure class="w-1/2">
-      <img src="/assets/images/hero.svg" alt="">
-    </figure>
-    <Hero />
-  </section>
+  <Home />
+  <Projects />
+  <About />
+  <Experience />
 </Base>
