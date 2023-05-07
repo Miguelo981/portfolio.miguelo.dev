@@ -1,0 +1,48 @@
+---
+import { Project, ProjectType } from "@/models/projects";
+
+export interface Props {
+  project: Project;
+}
+
+const { project } = Astro.props as Props;
+---
+
+<article
+  class="rounded-xl w-full bg-gray-50 flex flex-col h-auto zoom-in-short border border-gray-200"
+>
+  <picture class="bg-gradient-to-t from-black via-transparent to-transparent relative">
+    <h1 class="absolute z-20 left-5 bottom-5 text-white font-bold text-2xl">
+        <span>{project.title}</span>
+      <time
+        class="absolute top-0 ml-2 py-0.5 px-2 text-xs font-bold bg-indigo-500 text-white rounded-sm"
+        >{new Date(project.date).getFullYear()}
+      </time>
+    </h1>
+    <source srcset={`${project.thumbs[0]}`} media="(min-width: 992px)" />
+    <source srcset={`${project.thumbs[0]}.small.webp`} media="(min-width: 0px)"
+    />
+    <img
+      loading="lazy"
+      src={`${project.thumbs[0]}.small.webp`}
+      class="h-52 w-full object-cover rounded-t-xl mix-blend-multiply"
+      alt={project.description}
+    />
+  </picture>
+  <div class="p-6 flex flex-col h-full justify-between">
+    <p class="text-sm md:text-base text-black pb-8">{project.description}</p>
+    <div class="space-x-2">
+      <a role="button" target="_blank" class="cta-btn px-4 py-1" href={project.href}>Visit</a>
+      {project.projectType === ProjectType.OPEN_SOURCE ? (
+        <a 
+            role="button"
+            class="mt-auto secondary-btn px-4 py-1"
+            href={project.projectSource}
+            target="_blank"
+            >
+            Github repo
+        </a>
+      ) : null}
+    </div>
+  </div>
+</article>
