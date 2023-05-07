@@ -1,8 +1,10 @@
 ---
-import Footer from '@/partials/Footer.astro';
-import Navbar from '@/partials/Navbar.astro';
+import Footer from '@/partials/Layout/Footer.astro';
+import Navbar from '@/partials/Layout/Navbar.astro';
 import { AppConfig } from '@/utils/AppConfig';
 import { GoogleFontsOptimizer } from "astro-google-fonts-optimizer";
+
+import '@/styles.css';
 
 export interface Props {
   head: {
@@ -24,7 +26,6 @@ const {
     <meta name='description' content={description} />
     <meta name='author' content={AppConfig.author} />
 
-    <link rel='alternate' type='application/rss+xml' href='/rss.xml' />
     <link rel='icon' type='image/x-icon' href='/favicon.ico' />
     <GoogleFontsOptimizer url="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" />
     <style>
@@ -33,11 +34,11 @@ const {
       }
     </style>
   </head>
-  <body class='bg-white bg-slate-900 text-black max-w-5xl mx-auto'>
+  <body>
     <Navbar />
-
-    <slot></slot>
-
+    <main class='bg-white bg-slate-900 text-black max-w-6xl mx-auto px-5 lg:px-0'>
+      <slot></slot>
+    </main>
     <Footer />
   </body>
 </html>
