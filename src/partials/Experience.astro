@@ -1,0 +1,94 @@
+---
+import { Experience } from "@/models/experience";
+
+import ExperienceList from '@/assets/experiences.json'
+import ExperienceDetail from '@/components/ExperienceDetail.astro';
+
+const experiences: Experience[] = ExperienceList;
+---
+<section id="experience" class="py-10 lg:py-0">
+  <h2 class="text-6xl font-bold mb-8">Experience</h2>
+  <div class="timeline">
+    {
+        experiences.map((experience: Experience) => (
+            <ExperienceDetail experience={experience} />
+        ))
+    }
+  </div>
+</section>
+
+<style is:inline>
+  .timeline {
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .timeline::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    top: 0;
+    bottom: 0;
+    margin-left: -6px;
+  }
+
+  .experience-container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+  }
+
+  .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+  }
+
+  .badge::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+  .badge::after {
+    left: -16px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .timeline::after {
+      left: 31px;
+    }
+
+    .experience-container {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+    }
+
+    .experience-container::before {
+      left: 60px;
+      border: medium solid white;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent white transparent transparent;
+    }
+
+    .left::after,
+    .badge::after {
+      left: 15px;
+    }
+  }
+</style>

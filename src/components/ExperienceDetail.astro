@@ -1,0 +1,32 @@
+---
+import { Experience } from '@/models/experience';
+
+export interface Props {
+    experience: Experience;
+}
+
+const { experience } = Astro.props as Props;
+---
+
+<div class="experience-container badge w-full lg:w-3/4">
+    <div class="border rounded-md border-gray-200 p-4">
+        <time class="block mb-4">{experience.date}</time>
+        {
+            experience.jobs.map((job) => (
+                <div class="job-content">
+                    <h3 class="text-lg lg:text-2xl font-bold">{job.charge}</h3>
+                    <h4 class="text-md lg:text-xl font-light text-indigo-500 mb-3">{job.company}</h4>
+                    <p class="text-sm lg:text-base">{job.description}</p>
+                </div>
+            ))
+        }
+    </div>
+</div>
+
+<style is:inline>
+    .job-content:not(:last-child) {
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #e2e8f0;
+    }
+</style>
