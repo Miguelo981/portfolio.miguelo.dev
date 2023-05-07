@@ -10,11 +10,6 @@ export default defineConfig({
   experimental: {
     integrations: true,
   },
-  markdown: {
-    shikiConfig: {
-      theme: 'monokai',
-    },
-  },
   integrations: [
     tailwind({}),
     sitemap(),
