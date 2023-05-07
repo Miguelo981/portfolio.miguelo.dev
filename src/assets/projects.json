@@ -1,0 +1,264 @@
+[
+    {
+        "id": "fd8918b5-bb60-493f-9f26-94f618672710",
+        "title": "Unic Legacy",
+        "description": "The first portal that transforms the most relevant moments of your favorite idols into NFTs. Starting with the world-renowned Andrés Iniesta.",
+        "href": "https://www.uniclegacy.io/",
+        "isPublished": true,
+        "date": "2022-04-01T09:10:06.546Z",
+        "projectType": 0,
+        "projectSource": "",
+        "thumbs": [
+            "/assets/images/projects/uniclegacy/uniclegacy-mockup-1.webp"
+        ],
+        "usedTechnologies": [
+            {
+                "id": "ce44f9b3-d571-42cc-907a-c91e0d88d03c",
+                "name": "TailwindCss",
+                "icon": "/assets/images/icons/tailwindcss.webp"
+            },
+            {
+                "id": "b7df6b76-53d7-4930-9133-8b31f255d104",
+                "name": "Docker",
+                "icon": "/assets/images/icons/docker.webp"
+            },
+            {
+                "id": "ed352634-95c8-4d37-b87b-be9e4938246b",
+                "name": "React",
+                "icon": "/assets/images/icons/react.webp"
+            },
+            {
+                "id": "fc6ce146-dd8a-4a70-87cd-e97a8bdafcd0",
+                "name": "Nextjs",
+                "icon": "/assets/images/icons/nextjs.webp"
+            },
+            {
+                "id": "4ef6255f-db81-4dfe-a630-92a81b35a92d",
+                "name": "Web3js",
+                "icon": "/assets/images/icons/web3js.webp"
+            },
+            {
+                "id": "8e16e187-74d5-40fe-8c7a-ffe935433deb",
+                "name": "Metamask",
+                "icon": "/assets/images/icons/metamask.webp"
+            },
+            {
+                "id": "f7439b59-3d1c-4a10-ba42-e0e8e653c4b2",
+                "name": "Figma",
+                "icon": "/assets/images/icons/figma.webp"
+            }
+        ],
+        "testimonials": null
+    },
+    {
+        "id": "844027fa-624c-4d87-9f24-4b98971b8e8b",
+        "title": "Mancarot",
+        "description": "Manuel Carot, also known as Man or Mancarot, is a Catalan painter, draftsman and tattoo artist.",
+        "href": "https://www.mancarot.com/",
+        "isPublished": true,
+        "date": "2020-07-01T09:10:06.546Z",
+        "projectType": 0,
+        "projectSource": "",
+        "thumbs": [
+            "/assets/images/projects/mancarot/mancarot-mockup-1.webp"
+        ],
+        "usedTechnologies": [
+            {
+                "id": "f32509e2-6948-4a5b-99ab-dbfd2f984336",
+                "name": "AdobeXd",
+                "icon": "/assets/images/icons/adobexd.webp"
+            },
+            {
+                "id": "2f9f58b2-1e56-4d3b-a2b7-abb0cf76749b",
+                "name": "Wordpress",
+                "icon": "/assets/images/icons/wordpress.webp"
+            }
+        ],
+        "testimonials": null
+    },
+    {
+        "id": "cf299865-c1dc-4d3f-96cb-5fade8b2a05f",
+        "title": "Web3 Dashboard",
+        "description": "Open source dApp specialized in previewing the balance of your Metamask wallet. Add / change / remove Tokens and Networks quickly and easily.",
+        "href": "https://web3.miguelo.dev/",
+        "isPublished": true,
+        "date": "2022-06-01T09:10:06.546Z",
+        "projectType": 1,
+        "projectSource": "https://github.com/Miguelo981/web3-dashboard",
+        "thumbs": [
+            "/assets/images/projects/web3-dashboard/web3-dashboard-mockup-1.webp"
+        ],
+        "usedTechnologies": [
+            {
+                "id": "ce44f9b3-d571-42cc-907a-c91e0d88d03c",
+                "name": "TailwindCss",
+                "icon": "/assets/images/icons/tailwindcss.webp"
+            },
+            {
+                "id": "1a9eb659-95da-4742-9f84-8975b748c11d",
+                "name": "Docker",
+                "icon": "/assets/images/icons/docker.webp"
+            },
+            {
+                "id": "ed352634-95c8-4d37-b87b-be9e4938246b",
+                "name": "React",
+                "icon": "/assets/images/icons/react.webp"
+            },
+            {
+                "id": "fc6ce146-dd8a-4a70-87cd-e97a8bdafcd0",
+                "name": "Nextjs",
+                "icon": "/assets/images/icons/nextjs.webp"
+            },
+            {
+                "id": "4ef6255f-db81-4dfe-a630-92a81b35a92d",
+                "name": "Web3js",
+                "icon": "/assets/images/icons/web3js.webp"
+            },
+            {
+                "id": "8e16e187-74d5-40fe-8c7a-ffe935433deb",
+                "name": "Metamask",
+                "icon": "/assets/images/icons/metamask.webp"
+            }
+        ],
+        "testimonials": null
+    },
+    {
+        "id": "a06052da-58df-4f5e-94e3-f6cd60ba27c2",
+        "title": "Avem Finance",
+        "description": "Avem is the investor’s connection with the Polkadot domain through a decentralized exchange, launchpad and DeFi products built on top of Shiden Network.",
+        "href": "https://avem.finance/",
+        "isPublished": true,
+        "date": "2021-10-01T09:10:06.546Z",
+        "projectType": 0,
+        "projectSource": "",
+        "thumbs": [
+            "/assets/images/projects/avem/avem-mockup-3.webp",
+            "/assets/images/projects/avem/avem-mockup-1.webp",
+            "/assets/images/projects/avem/avem-mockup-2.webp",
+            "/assets/images/projects/avem/avem-mockup-4.webp",
+            "/assets/images/projects/avem/avem-mockup-5.webp"
+        ],
+        "usedTechnologies": [
+            {
+                "id": "1b5478ab-5963-405e-9ac3-f252f1ac9c2e",
+                "name": "VueJs",
+                "icon": "/assets/images/icons/vuejs.webp"
+            },
+            {
+                "id": "f290d606-941b-4e26-8e50-041a0dfa3482",
+                "name": "Vuebootstrap",
+                "icon": "/assets/images/icons/vuebootstrap.webp"
+            },
+            {
+                "id": "ce44f9b3-d571-42cc-907a-c91e0d88d03c",
+                "name": "TailwindCss",
+                "icon": "/assets/images/icons/tailwindcss.webp"
+            },
+            {
+                "id": "432dde5f-422a-42cd-854a-d961764cfb4d",
+                "name": "Docker",
+                "icon": "/assets/images/icons/docker.webp"
+            },
+            {
+                "id": "f32509e2-6948-4a5b-99ab-dbfd2f984336",
+                "name": "AdobeXd",
+                "icon": "/assets/images/icons/adobexd.webp"
+            },
+            {
+                "id": "4ef6255f-db81-4dfe-a630-92a81b35a92d",
+                "name": "Web3js",
+                "icon": "/assets/images/icons/web3js.webp"
+            }
+        ],
+        "testimonials": null
+    },
+    {
+        "id": "368a9143-a892-41ff-b2aa-739d1ce08769",
+        "title": "Themar Solutions",
+        "description": "Themar is company that develop custom Blockchain and DLT project solutions.",
+        "href": "https://themarsolutions.io/",
+        "isPublished": true,
+        "date": "2021-06-01T09:10:06.546Z",
+        "projectType": 0,
+        "projectSource": "",
+        "thumbs": [
+            "/assets/images/projects/themar/themar-mockup-1.webp",
+            "/assets/images/projects/themar/themar-mockup-4.webp",
+            "/assets/images/projects/themar/themar-mockup-2.webp",
+            "/assets/images/projects/themar/themar-mockup-3.webp"
+        ],
+        "usedTechnologies": [
+            {
+                "id": "853f672a-a10a-49a7-961a-19607f52d287",
+                "name": "VueJs",
+                "icon": "/assets/images/icons/vuejs.webp"
+            },
+            {
+                "id": "eb65de83-9a6d-4b0f-a93e-88a4c42f2a3a",
+                "name": "Vuebootstrap",
+                "icon": "/assets/images/icons/vuebootstrap.webp"
+            },
+            {
+                "id": "f527da23-a8e6-4e68-ac6b-10bdf2d8b1a4",
+                "name": "TailwindCss",
+                "icon": "/assets/images/icons/tailwindcss.webp"
+            },
+            {
+                "id": "91892ddf-289f-446f-9d02-92052cb06400",
+                "name": "Docker",
+                "icon": "/assets/images/icons/docker.webp"
+            },
+            {
+                "id": "81877ce6-0b9a-4e12-8a69-e20578824611",
+                "name": "AdobeXd",
+                "icon": "/assets/images/icons/adobexd.webp"
+            }
+        ],
+        "testimonials": null
+    },
+    {
+        "id": "d08e2abc-4f07-4114-b14a-7ec4bc6df655",
+        "title": "CryptoMaster Academy",
+        "description": "School specialized in cryptoeconomics and decentralized finance. They will teach you how to multiply your savings while keeping the risk always under control.",
+        "href": "https://cryptomaster.academy/",
+        "isPublished": true,
+        "date": "2021-12-01T10:10:06.546Z",
+        "projectType": 0,
+        "projectSource": "",
+        "thumbs": [
+            "/assets/images/projects/cryptomaster/cryptomaster-mockup-5.webp",
+            "/assets/images/projects/cryptomaster/cryptomaster-mockup-4.webp",
+            "/assets/images/projects/cryptomaster/cryptomaster-mockup-1.webp",
+            "/assets/images/projects/cryptomaster/cryptomaster-mockup-2.webp",
+            "/assets/images/projects/cryptomaster/cryptomaster-mockup-3.webp"
+        ],
+        "usedTechnologies": [
+            {
+                "id": "168c774b-d3da-426e-8c08-e3d10b145676",
+                "name": "VueJs",
+                "icon": "/assets/images/icons/vuejs.webp"
+            },
+            {
+                "id": "eb01551a-bb9e-444e-be04-4aadbf8941ee",
+                "name": "Vuebootstrap",
+                "icon": "/assets/images/icons/vuebootstrap.webp"
+            },
+            {
+                "id": "da0376a7-e6f6-4065-8d6c-5331d163aa6b",
+                "name": "TailwindCss",
+                "icon": "/assets/images/icons/tailwindcss.webp"
+            },
+            {
+                "id": "1a9eb659-95da-4742-9f84-8975b748c11d",
+                "name": "Docker",
+                "icon": "/assets/images/icons/docker.webp"
+            },
+            {
+                "id": "733f0c0f-af33-4dfd-93c5-71b870e53447",
+                "name": "AdobeXd",
+                "icon": "/assets/images/icons/adobexd.webp"
+            }
+        ],
+        "testimonials": null
+    }
+]

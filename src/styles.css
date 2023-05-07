@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .cta-btn {
+        @apply bg-black hover:bg-white text-white hover:text-inherit border-transparent hover:border-black border-2 hover:border-2 rounded-md text-xl;
+    }
+
+    .secondary-btn {
+        @apply bg-indigo-500 hover:bg-white rounded-md text-xl text-white hover:text-indigo-500  border-transparent hover:border-indigo-500 border-2 hover:border-2;
+    }
+
+    .experience-container::after {
+        content: "";
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        right: -17px;
+        border: 4px solid #ff9f55;
+        top: 15px;
+        border-radius: 50%;
+        z-index: 1;
+
+        @apply bg-indigo-500 border-indigo-500;
+      }
+
+      .timeline::after {
+        @apply bg-gray-300;
+      }
+
+}

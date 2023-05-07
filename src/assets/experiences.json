@@ -1,0 +1,57 @@
+[
+    {
+        "date": "2022 - 2023",
+        "jobs": [
+            {
+                "charge": "FULLSTACK JUNIOR DEV",
+                "company": "IMPACTING DIGITAL (REMOTE)",
+                "description": "I am in charge of some of the BMW webpage's frontend layout, microservices and automations. I have configured the CI/CD for every company's project, with production contenerized environment and remote deployments."
+            }
+        ]
+    },
+  {
+    "date": "2021 - 2022",
+    "jobs": [
+      {
+        "charge": "FRONTEND DEV FREELANCE",
+        "company": "UNIC LEGACY (REMOTE)",
+        "description": "Refactored several web components and styles from an already started project about a NFT SPA in react. I made the microservices integration for the user auth."
+      },
+      {
+        "charge": "SOFTWARE ENGINEER",
+        "company": "GO WEB3-TOKEN LIB",
+        "description": "Made a fast lib to verify and decrypt signed Ethereum tokens and use it as middleware in Golang backends and libs."
+      },
+      {
+        "charge": "FULLSTACK DEVELOPER",
+        "company": "Automated Videos",
+        "description": "I made a complex infrastructure that connects several microservices in different programming languages to create an automated SAAS that generates videos / images from templates and scraped data such as online blog posts with a clean and simple user interface to schedule the publication of the contents."
+      }
+    ]
+  },
+  {
+    "date": "2020 - 2021",
+    "jobs": [
+      {
+        "charge": "FRONTEND DEV FREELANCE",
+        "company": "THEMAR SOLUTIONS (REMOTE)",
+        "description": "Implemented the layout for a static web3 crypto related landing pages with vuejs, web3js and tailwind, making reusable layout components to improve the development experience."
+      }
+    ]
+  },
+  {
+    "date": "2019 - 2020",
+    "jobs": [
+      {
+        "charge": "FULLSTACK DEVELOPER INTERSHIP",
+        "company": "AT CARVER AS (SPAIN, BARCELONA)",
+        "description": "Was in charge of the microservices for a CMS, its Frontend layout, the authentication and the Backend integration with Angular and Java Spring boot. "
+      },
+      {
+        "charge": "FRONTEND DEV FREELANCE",
+        "company": "ALPHA SOLUTIONS (REMOTE)",
+        "description": "Created the authentication state, the session persistance, role system and several video features of an crypto investment courses webpage with Vuejs, firebase and docker."
+      }
+    ]
+  }
+]
