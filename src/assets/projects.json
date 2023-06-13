@@ -260,5 +260,47 @@
             }
         ],
         "testimonials": null
+    },
+    {
+        "id": "d08e2abc-4f07-4114-b14a-7ec4bc6df654",
+        "title": "Impacting Digital",
+        "description": "Helps companies to transform and acquire a digital DNA. Digital business transformation fascinates us. From strategic approach, routine tasks, to activities and processes.",
+        "href": "https://impacting.digital/",
+        "isPublished": true,
+        "date": "2023-04-01T10:10:06.546Z",
+        "projectType": 0,
+        "projectSource": "",
+        "thumbs": [
+            "/assets/images/projects/impacting-digital/impacting-digital-mockup.webp"
+        ],
+        "usedTechnologies": []
+    },
+    {
+        "id": "d08e2abc-4f07-4114-b14a-7ec4bc6df653",
+        "title": "Artistealo",
+        "description": "Find all kinds of artists, services and suppliers for events or celebrations.",
+        "href": "https://www.artistealo.com/",
+        "isPublished": true,
+        "date": "2022-10-01T10:10:06.546Z",
+        "projectType": 0,
+        "projectSource": "",
+        "thumbs": [
+            "/assets/images/projects/artistealo/artistealo-mockup.webp"
+        ],
+        "usedTechnologies": []
+    },
+    {
+        "id": "d08e2abc-4f07-4114-b14a-7ec4bc6df652",
+        "title": "The House Talents",
+        "description": "In constant movement in search of new opportunities, new projects for our represented and represented actors.",
+        "href": "https://www.thehousetalents.com/",
+        "isPublished": true,
+        "date": "2023-01-01T10:10:06.546Z",
+        "projectType": 0,
+        "projectSource": "",
+        "thumbs": [
+            "/assets/images/projects/the-house-talents/the-house-talents-mockup.webp"
+        ],
+        "usedTechnologies": []
     }
 ]
