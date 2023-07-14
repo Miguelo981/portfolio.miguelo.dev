@@ -14,9 +14,9 @@ const { experience } = Astro.props as Props;
         {
             experience.jobs.map((job) => (
                 <div class="job-content">
-                    <h3 class="text-lg lg:text-2xl font-bold">{job.charge}</h3>
-                    <h4 class="text-md lg:text-xl font-light text-indigo-500 mb-3">{job.company}</h4>
-                    <p class="text-sm lg:text-base">{job.description}</p>
+                    <h3 class="text-base sm:text-lg lg:text-2xl font-bold">{job.charge}</h3>
+                    <h4 class="text-sm sm:text-md lg:text-xl font-light text-indigo-500 mb-3">{job.company}</h4>
+                    <p class="text-xs sm:text-sm lg:text-base">{job.description}</p>
                 </div>
             ))
         }
