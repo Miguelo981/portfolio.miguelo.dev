@@ -1,6 +1,6 @@
 ---
 import Projects from '@/assets/projects.json'
-import ProjectDetail from '@/components/ProjectDetail.astro';
+import BentoList from '@/components/BentoList.astro';
 import { Project } from '@/models/projects';
 import { sortByDate } from '@/utils/date';
 
@@ -11,11 +11,5 @@ sortByDate(projects)
 
 <section id="projects" class="pt-16 lg:pt-0 pb-16 lg:pb-32">
     <h2 class="text-6xl font-bold mb-8">Projects</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-    {
-         projects.map(project => (
-            <ProjectDetail project={project} />
-        ))
-    }
-    </div>
+    <BentoList projects={projects} />
 </section>
