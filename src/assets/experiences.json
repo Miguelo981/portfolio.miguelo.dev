@@ -1,14 +1,29 @@
 [
-    {
-        "date": "2022 - 2023",
-        "jobs": [
-            {
-                "charge": "FULLSTACK JUNIOR DEV",
-                "company": "IMPACTING DIGITAL (REMOTE)",
-                "description": "I am in charge of some of the BMW webpage's frontend layout, microservices and automations. I have configured the CI/CD for every company's project, with production contenerized environment and remote deployments."
-            }
-        ]
-    },
+  {
+    "date": "2023 - 2024",
+    "jobs": [
+      {
+        "charge": "SENIOR FRONTEND DEV",
+        "company": "MAARLAB (HYBRID)",
+        "description": "Leading refactoring and infracture of the main travel engine of Spring Hoteles app. Optimizing the performance, user experience of the webapp, and building pipeline."
+      },
+      {
+        "charge": "FRONTEND DEV FREELANCE",
+        "company": "PLUSHOLIDAYS",
+        "description": "Frontend tech migration and pixel perfect layout for one of the biggest travel agencies in Spain."
+      }
+    ]
+  },
+  {
+    "date": "2022 - 2023",
+    "jobs": [
+      {
+        "charge": "FULLSTACK JUNIOR DEV",
+        "company": "IMPACTING DIGITAL (REMOTE)",
+        "description": "I am in charge of some of the BMW webpage's frontend layout, microservices and automations. I have configured the CI/CD for every company's project, with production contenerized environment and remote deployments."
+      }
+    ]
+  },
   {
     "date": "2021 - 2022",
     "jobs": [
