@@ -2,7 +2,7 @@
     {
         "id": "fd8918b5-bb60-493f-9f26-94f618672710",
         "title": "Unic Legacy",
-        "description": "The first portal that transforms the most relevant moments of your favorite idols into NFTs. Starting with the world-renowned Andrés Iniesta.",
+        "description": "The first portal that transforms the most relevant moments of your favorite idols into NFTs.",
         "href": "https://www.uniclegacy.io/",
         "isPublished": true,
         "date": "2022-04-01T09:10:06.546Z",
@@ -51,35 +51,9 @@
         "testimonials": null
     },
     {
-        "id": "844027fa-624c-4d87-9f24-4b98971b8e8b",
-        "title": "Mancarot",
-        "description": "Manuel Carot, also known as Man or Mancarot, is a Catalan painter, draftsman and tattoo artist.",
-        "href": "https://www.mancarot.com/",
-        "isPublished": true,
-        "date": "2020-07-01T09:10:06.546Z",
-        "projectType": 0,
-        "projectSource": "",
-        "thumbs": [
-            "/assets/images/projects/mancarot/mancarot-mockup-1.webp"
-        ],
-        "usedTechnologies": [
-            {
-                "id": "f32509e2-6948-4a5b-99ab-dbfd2f984336",
-                "name": "AdobeXd",
-                "icon": "/assets/images/icons/adobexd.webp"
-            },
-            {
-                "id": "2f9f58b2-1e56-4d3b-a2b7-abb0cf76749b",
-                "name": "Wordpress",
-                "icon": "/assets/images/icons/wordpress.webp"
-            }
-        ],
-        "testimonials": null
-    },
-    {
         "id": "cf299865-c1dc-4d3f-96cb-5fade8b2a05f",
         "title": "Web3 Dashboard",
-        "description": "Open source dApp specialized in previewing the balance of your Metamask wallet. Add / change / remove Tokens and Networks quickly and easily.",
+        "description": "Open source dApp specialized in previewing the balance of your Metamask and token managing quickly and easily.",
         "href": "https://web3.miguelo.dev/",
         "isPublished": true,
         "date": "2022-06-01T09:10:06.546Z",
@@ -125,7 +99,7 @@
     {
         "id": "a06052da-58df-4f5e-94e3-f6cd60ba27c2",
         "title": "Avem Finance",
-        "description": "Avem is the investor’s connection with the Polkadot domain through a decentralized exchange, launchpad and DeFi products built on top of Shiden Network.",
+        "description": "Launchpad and DeFi products built on top of Shiden Network.",
         "href": "https://avem.finance/",
         "isPublished": true,
         "date": "2021-10-01T09:10:06.546Z",
@@ -219,7 +193,7 @@
     {
         "id": "d08e2abc-4f07-4114-b14a-7ec4bc6df655",
         "title": "CryptoMaster Academy",
-        "description": "School specialized in cryptoeconomics and decentralized finance. They will teach you how to multiply your savings while keeping the risk always under control.",
+        "description": "School specialized in cryptoeconomics and decentralized finance.",
         "href": "https://cryptomaster.academy/",
         "isPublished": true,
         "date": "2021-12-01T10:10:06.546Z",
@@ -264,7 +238,7 @@
     {
         "id": "d08e2abc-4f07-4114-b14a-7ec4bc6df654",
         "title": "Impacting Digital",
-        "description": "Helps companies to transform and acquire a digital DNA. Digital business transformation fascinates us. From strategic approach, routine tasks, to activities and processes.",
+        "description": "Helps companies to transform and acquire a digital DNA. From strategic approach, routine tasks, to activities and processes.",
         "href": "https://impacting.digital/",
         "isPublished": true,
         "date": "2023-04-01T10:10:06.546Z",
@@ -300,6 +274,36 @@
         "projectSource": "",
         "thumbs": [
             "/assets/images/projects/the-house-talents/the-house-talents-mockup.webp"
+        ],
+        "usedTechnologies": []
+    },
+    {
+        "id": "d08e2abc-4f07-4114-b14a-7ec4bc6df655",
+        "title": "Plusholidays",
+        "description": "The best holiday accommodations in Spain. Villas with private pool, Apartments and Houses in Spain.",
+        "href": "https://www.plusholidays.com/",
+        "isPublished": true,
+        "date2": "2023-10-03T10:10:06.546Z",
+        "date": "2024-01-03T10:10:06.546Z",
+        "projectType": 0,
+        "projectSource": "",
+        "thumbs": [
+            "/assets/images/projects/plusholidays/plusholidays-mockup.webp"
+        ],
+        "usedTechnologies": []
+    },
+    {
+        "id": "d08e2abc-4f07-4114-b14a-7ec4bc6df655",
+        "title": "Maarlab",
+        "description": "Technological Solutions for the Accommodation Industry.",
+        "href": "https://maarlab.com/",
+        "isPublished": true,
+        "date2": "2023-11-20T10:10:06.546Z",
+        "date": "2024-01-20T10:10:06.546Z",
+        "projectType": 0,
+        "projectSource": "",
+        "thumbs": [
+            "/assets/images/projects/maarlab/maarlab-mockup.webp"
         ],
         "usedTechnologies": []
     }
