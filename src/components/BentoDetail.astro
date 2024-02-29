@@ -1,0 +1,48 @@
+---
+import { Project } from "@/models/projects";
+
+export interface Props {
+  project: Project;
+}
+
+const { project } = Astro.props as Props;
+---
+
+<article
+  class="w-full h-full object-cover group rounded-2xl overflow-hidden"
+>
+  <div class="rounded-2xl bg-gradient-to-t from-black via-transparent to-transparent h-full relative overflow-hidden">
+    <header class="absolute z-20 left-5 bottom-5 text-white">
+        <h1 class="font-bold text-xl md:text-2xl">
+            <span>{project.title}</span>
+            <time
+              class="absolute top-0 ml-2 py-0.5 px-2 text-xs font-bold bg-indigo-500 text-white rounded-sm"
+              >{new Date(project.date).getFullYear()}
+            </time>
+        </h1>
+        <p class="text-sm md:text-base mt-2 pr-2">{project.description}</p>
+    </header>
+    <img
+      loading="lazy"
+      src={`${project.thumbs[0]}`}
+      class="w-full h-full object-cover object-center mix-blend-multiply group-hover:scale-110 transition duration-300 ease-in-out"
+      alt={project.description}
+    />
+</div>
+  <!-- <footer class="p-4 md:p-6 flex flex-col h-full justify-between">
+    <p class="text-sm md:text-base text-black pb-4 md:pb-8">{project.description}</p>
+    <div class="space-x-2">
+      <a role="button" target="_blank" class="cta-btn px-4 py-1 text-sm md:text-base" href={project.href}>Visit</a>
+      {project.projectType === ProjectType.OPEN_SOURCE ? (
+        <a 
+            role="button"
+            class="mt-auto secondary-btn px-4 py-1 text-sm md:text-base"
+            href={project.projectSource}
+            target="_blank"
+            >
+            Github repo
+        </a>
+      ) : null}
+    </div>
+  </footer> -->
+</article>
