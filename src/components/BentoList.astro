@@ -1,0 +1,22 @@
+---
+import type { Project } from "@/models/projects"
+import BentoDetail from "./BentoDetail.astro"
+
+interface Props {
+    projects: Project[]
+}
+
+const { projects } = Astro.props;
+---
+
+<div class="grid grid-cols-1 sm:grid-cols-2 md:auto-rows-[360px] md:grid-cols-3 gap-4">
+    {projects.map((project, i) => (
+      <div
+        class={`row-span-1  ${
+          i === 3 || i === 6 ? "col-span-1 md:col-span-2" : "aspect-square"
+        }`}
+      >
+      <BentoDetail project={project} />
+      </div>
+    ))}
+</div>
