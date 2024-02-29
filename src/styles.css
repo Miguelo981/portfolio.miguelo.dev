@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  scroll-behavior: smooth;
+  color: #000;
+  background-color: #000;
+  background: radial-gradient(circle at 50%, #2c2c2c, #191919);
+  background-image: radial-gradient(
+      circle at center,
+      hsla(0, 0%, 100%, 0.005) 0,
+      hsla(0, 0%, 100%, 0.005) 1px,
+      transparent 0
+    ),
+    linear-gradient(90deg, hsla(0, 0%, 100%, 0.01) 1px, transparent 0),
+    linear-gradient(180deg, hsla(0, 0%, 100%, 0.01) 1px, transparent 0);
+  background-size: 10px 10px;
+  background-attachment: fixed;
+  background-color: #fcfcfc;
+}
+
 @layer components {
     .cta-btn {
         @apply bg-black hover:bg-white text-white hover:text-inherit border-transparent hover:border-black border-2 hover:border-2 rounded-md text-xl;
