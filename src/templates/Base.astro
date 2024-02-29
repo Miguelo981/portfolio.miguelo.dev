@@ -2,7 +2,6 @@
 import Footer from '@/partials/Layout/Footer.astro';
 import Navbar from '@/partials/Layout/Navbar.astro';
 import { AppConfig } from '@/utils/AppConfig';
-import { GoogleFontsOptimizer } from "astro-google-fonts-optimizer";
 
 import '@/styles.css';
 
@@ -27,7 +26,7 @@ const {
     <meta name='author' content={AppConfig.author} />
 
     <link rel='icon' type='image/x-icon' href='/favicon.ico' />
-    <GoogleFontsOptimizer url="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" />
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap' />
     <style>
       body, html {
         font-family: 'Inter', sans-serif !important;
@@ -36,7 +35,7 @@ const {
   </head>
   <body>
     <Navbar />
-    <main class='bg-white text-black max-w-6xl mx-auto px-5'>
+    <main class='text-black max-w-6xl mx-auto px-5'>
       <slot></slot>
     </main>
     <Footer />
