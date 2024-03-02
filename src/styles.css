@@ -5,19 +5,15 @@
 body {
   scroll-behavior: smooth;
   color: #000;
-  background-color: #000;
-  background: radial-gradient(circle at 50%, #2c2c2c, #191919);
-  background-image: radial-gradient(
-      circle at center,
-      hsla(0, 0%, 100%, 0.005) 0,
-      hsla(0, 0%, 100%, 0.005) 1px,
-      transparent 0
-    ),
-    linear-gradient(90deg, hsla(0, 0%, 100%, 0.01) 1px, transparent 0),
-    linear-gradient(180deg, hsla(0, 0%, 100%, 0.01) 1px, transparent 0);
+  background: radial-gradient(circle at 50%,#2c2c2c,#191919);
+  background-image: radial-gradient(circle at center,hsla(0,0%,100%,.005) 0,hsl(0deg 0% 0% / 0.5%) 1px,transparent 0),linear-gradient(90deg,hsl(0deg 0% 0% / 1%) 1px,transparent 0),linear-gradient(180deg,hsl(0deg 0% 0% / 1%) 1px,transparent 0);
   background-size: 10px 10px;
   background-attachment: fixed;
-  background-color: #fcfcfc;
+  background-color: #ffffff;
+}
+
+p {
+  max-width: 60ch;
 }
 
 @layer components {
