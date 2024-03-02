@@ -8,8 +8,8 @@ export interface Props {
 const { experience } = Astro.props as Props;
 ---
 
-<div class="experience-container badge w-full lg:w-3/4">
-    <div class="border rounded-md border-gray-200 p-4">
+<div class="experience-container badge w-full lg:w-3/4 max-w-[70ch]">
+    <div class="border rounded-md border-gray-200 p-4 bg-white shadow-lg">
         <time class="block mb-4">{experience.date}</time>
         {
             experience.jobs.map((job) => (
