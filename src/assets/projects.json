@@ -306,5 +306,20 @@
             "/assets/images/projects/maarlab/maarlab-mockup.webp"
         ],
         "usedTechnologies": []
+    },
+    {
+        "id": "d08e2abc-4f07-4114-b14a-7ec4bc6df659",
+        "title": "SaaSlidator",
+        "description": "Stop wasting hours validating profitable ideas. Gain insights from your SaaS idea description in seconds",
+        "href": "https://saaslidator.com/",
+        "isPublished": true,
+        "date2": "2023-11-20T10:10:06.546Z",
+        "date": "2023-12-31T10:10:06.546Z",
+        "projectType": 0,
+        "projectSource": "",
+        "thumbs": [
+            "/assets/images/projects/saaslidator/saaslidator-mockup.webp"
+        ],
+        "usedTechnologies": []
     }
 ]
