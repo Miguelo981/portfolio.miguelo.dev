@@ -5,18 +5,18 @@ export interface Props {
     experience: Experience;
 }
 
-const { experience } = Astro.props as Props;
+const { experience } = Astro.props;
 ---
 
-<div class="experience-container badge w-full lg:w-3/4 max-w-[70ch]">
+<div class="experience-container badge w-full lg:w-3/4 max-w-[75ch]">
     <div class="border rounded-md border-gray-200 p-4 bg-white shadow-lg">
-        <time class="block mb-4">{experience.date}</time>
+        <time class="block mb-4" datetime={experience.date}>{experience.date}</time>
         {
             experience.jobs.map((job) => (
                 <div class="job-content">
                     <h3 class="text-base sm:text-lg lg:text-2xl font-bold">{job.charge}</h3>
                     <h4 class="text-sm sm:text-md lg:text-xl font-light text-indigo-500 mb-3">{job.company}</h4>
-                    <p class="text-xs sm:text-sm lg:text-base">{job.description}</p>
+                    <p class="text-xs sm:text-sm lg:text-base whitespace-pre-line">{job.description}</p>
                 </div>
             ))
         }
