@@ -36,8 +36,5 @@
     "rimraf": "3.0.2",
     "tailwindcss": "^3.4.1"
   },
-  "dependencies": {
-    "@astrojs/vercel": "^7.3.4"
-  },
   "author": "Miguelo981 (https://github.com/Miguelo981)"
 }
