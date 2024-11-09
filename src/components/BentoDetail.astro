@@ -13,13 +13,13 @@ const { project } = Astro.props as Props;
 >
   <div class="rounded-2xl bg-gradient-to-t from-black via-transparent to-transparent h-full relative overflow-hidden">
     <header class="absolute z-20 left-5 bottom-5 text-white">
-        <h1 class="font-bold text-xl md:text-2xl">
+        <h4 class="font-bold text-xl md:text-2xl">
             <span>{project.title}</span>
             <time
               class="absolute top-0 ml-2 py-0.5 px-2 text-xs font-bold bg-indigo-500 text-white rounded-sm"
               >{new Date(project.date).getFullYear()}
             </time>
-        </h1>
+        </h4>
         <p class="text-sm md:text-base mt-2 pr-2">{project.description}</p>
     </header>
     <img
