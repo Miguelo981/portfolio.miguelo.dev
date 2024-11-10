@@ -9,23 +9,24 @@ const { project } = Astro.props as Props;
 ---
 
 <article
-  class="w-full h-full object-cover group rounded-2xl overflow-hidden shadow-lg"
+  class="size-full group rounded-2xl overflow-hidden shadow-lg"
 >
-  <div class="rounded-2xl bg-gradient-to-t from-black via-transparent to-transparent h-full relative overflow-hidden">
+  <div class="rounded-2xl h-full relative">
+    <div class="absolute z-10 inset-0 bg-gradient-to-t from-black via-transparent to-transparent size-full" />
     <header class="absolute z-20 left-5 bottom-5 text-white">
-        <h4 class="font-bold text-xl md:text-2xl">
-            <span>{project.title}</span>
-            <time
-              class="absolute top-0 ml-2 py-0.5 px-2 text-xs font-bold bg-indigo-500 text-white rounded-sm"
-              >{new Date(project.date).getFullYear()}
-            </time>
-        </h4>
-        <p class="text-sm md:text-base mt-2 pr-2">{project.description}</p>
+      <h4 class="font-bold text-xl md:text-2xl">
+          <span>{project.title}</span>
+          <time
+            class="absolute top-0 ml-2 py-0.5 px-2 text-xs font-bold bg-indigo-500 text-white rounded-sm"
+            >{new Date(project.date).getFullYear()}
+          </time>
+      </h4>
+      <p class="text-sm md:text-base mt-2 pr-2">{project.description}</p>
     </header>
     <img
       loading="lazy"
-      src={`${project.thumbs[0]}`}
-      class="w-full h-full object-cover object-center mix-blend-multiply group-hover:scale-110 transition duration-300 ease-in-out"
+      src={`${project.thumbs.at(0)}`}
+      class="relative z-0 size-full object-cover object-center group-hover:scale-110 transition-transform duration-300 ease-in-out"
       alt={project.description}
     />
 </div>
