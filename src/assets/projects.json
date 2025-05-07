@@ -336,5 +336,20 @@
             "/assets/images/projects/remolonas/remolonas-mockup.webp"
         ],
         "usedTechnologies": []
+    },
+    {
+        "id": "d08e2abc-4f07-4114-b24b-7ec4bc6df659",
+        "title": "Achievo",
+        "description": "Web3 dApp for goals achieving by doing challenges ",
+        "href": "https://achievo.miguelo.dev/",
+        "isPublished": true,
+        "date2": "2025-05-05T10:10:06.546Z",
+        "date": "2025-05-05T10:10:06.546Z",
+        "projectType": 0,
+        "projectSource": "",
+        "thumbs": [
+            "/assets/images/projects/achievo/achievo-mockup.webp"
+        ],
+        "usedTechnologies": []
     }
 ]
